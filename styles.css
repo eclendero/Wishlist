@@ -51,10 +51,6 @@
     body {
       background-color: black;
     }
-    
-    h1{
-        letter-spacing: 0.5vw !important;
-    }
 
     .header {
         flex-direction: column;
