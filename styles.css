@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
 @media only screen and (max-width: 480px) {
     .main {
         height: 50px !important;
     }
     
     h1 {
-        font-size: 20px !important; 
-        letter-spacing: 0.2vw !important;
-        padding-top: 14px !important;
+        font-size: 40px !important; 
+        padding-top: 4px !important;
     }
 
     .mistletoe {
-        width: 50px !important
+        width: 50px !important;
+        margin-top: -12px!important;
     }
 
     h2 {
@@ -71,6 +73,7 @@
         display: block !important; 
         transform: rotate(180deg);
         width: 90px;
+        margin-top: -20px;
     }
 
     .item{
@@ -103,9 +106,10 @@
 
     h1{
         color: white;
-        font-family: Helvetica, sans-serif;
-        letter-spacing: 5px;
-        padding-top: 22px;
+        font-family: 'Passions Conflict', cursive;
+        font-size: 60px;
+        font-weight: lighter;
+        padding-top: 10px;
         text-align: center;
         margin:0;
     }
@@ -116,6 +120,7 @@
         float:left;
         transform: scaleX(-1);
         position: relative;
+        margin-right: 20px;
         
     }
 
@@ -124,6 +129,7 @@
         height: 110px;
         float: right;
         position: relative;
+        margin-left: 20px;
     }
 
     .mistletoe {
