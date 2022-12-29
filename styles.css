@@ -1,0 +1,217 @@
+@media only screen and (max-width: 480px) {
+    .main {
+        height: 50px !important;
+    }
+    
+    h1 {
+        font-size: 20px !important; 
+        letter-spacing: 0.2vw !important;
+        padding-top: 14px !important;
+    }
+
+    .mistletoe {
+        width: 50px !important
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+    
+    .content{
+        margin-top: 40px !important;
+    }
+
+    .item{
+        margin-bottom: 50px !important;
+    }
+
+    .item_details p {
+      font-size: 16px !important;  
+    }
+
+    footer{
+        padding: 10px !important;
+    }
+
+    footer p{
+        font-size: 16px !important;
+
+    }
+
+    figure img {
+        width: 160px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: black;
+    }
+    
+    h1{
+        letter-spacing: 0.5vw !important;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon_berries1 {
+        display: none;
+    }
+
+    .icon_berries2 {
+        display: none;
+    }
+
+    .mistletoe{
+        display: block !important; 
+        transform: rotate(180deg);
+        width: 90px;
+    }
+
+    .item{
+        flex-direction: column !important;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19) !important;
+    }
+
+    .item_details p {
+      color: white;  
+    }
+  }
+
+/*Default style*/
+
+    body{
+        margin: 0; /*removes inherent margins*/
+    }
+
+    .main{ /*separated from header to have an overlapping effect even if the contents of its child are arranged in a flexbox*/
+        position:sticky;
+        top:0;
+        background-color: #143701;
+        height:80px;
+    }
+
+    .header{ /*allows the elements to be positioned at the center even if the browser is resized*/
+        display: flex; 
+        justify-content: center;
+    }
+
+    h1{
+        color: white;
+        font-family: Helvetica, sans-serif;
+        letter-spacing: 5px;
+        padding-top: 22px;
+        text-align: center;
+        margin:0;
+    }
+
+    .icon_berries1{
+        width: 110px;
+        height: 110px;
+        float:left;
+        transform: scaleX(-1);
+        position: relative;
+        
+    }
+
+    .icon_berries2{
+        width: 110px;
+        height: 110px;
+        float: right;
+        position: relative;
+    }
+
+    .mistletoe {
+        display: none;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        border: 2px solid #C7342A;
+        padding: 20px;
+        margin-bottom: 75px;
+        width: 80vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .item_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item img {
+        height:275px;
+        width:300px;
+        object-fit: contain;
+    }
+
+    h2{
+        font-family: Helvetica, sans-serif;
+        color:#C7342A;
+        margin-top: 0;
+    }
+
+    .item_details{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .item_details p {
+        font-size: 23px;
+        font-family: Verdana, sans-serif;
+        line-height: 1.5;
+        margin: 10px;
+    }
+
+    a {
+        color:#C7342A;
+    }
+
+    footer{
+        color: white;
+        background-color: #143701;
+        padding: 18px;
+    }
+
+    footer p{
+        font-size: 18px;
+        font-family: Verdana, sans-serif;
+        line-height: 1.25;
+        margin: 2px;
+        text-align: center;
+    }
+
+    footer p:nth-child(1){
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+
+    footer a {
+        color: #D9554B;
+    }
+
+    figure {
+        width: intrinsic;
+        margin:0;
+    }
+    
+    figure img {
+    width: 200px;
+    }
